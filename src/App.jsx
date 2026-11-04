@@ -18,9 +18,7 @@ export default function App() {
             We Don't Just Print Products. <br className="hidden sm:inline" />
             <span className="text-[#1a3dd6]">We Print Happiness.</span>
           </h1>
-          <p className="text-sm sm:text-base text-slate-600 mt-4 max-w-2xl mx-auto">
-            Navbar poori tarah clean ho gaya hai! Desktop par sleek links hain aur bottom-right me glowing WhatsApp button lag gaya hai.
-          </p>
+         
         </div>
       </main>
 
