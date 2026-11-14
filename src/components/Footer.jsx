@@ -1,90 +1,11 @@
 import React from "react";
-import {
-  Phone,
-  Mail,
-  MapPin,
-  ShieldCheck,
-  Users,
-  Award,
-  FileCheck2,
-  ChevronRight,
-  ExternalLink,
-} from "lucide-react";
+import { Phone, Mail, MapPin, ChevronRight, User } from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-[#070f26] text-white border-t border-slate-800/80 mt-12 text-xs">
-      {/* 1. TOP TRUST & VERIFICATION CARDS (Responsive 2x2 on Mobile, 4-Col on Desktop) */}
-      <div className="border-b border-slate-800/80 bg-[#050b1d]">
-        <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-            
-            {/* Trust Card 1: IndiaMART */}
-            <div className="bg-slate-900/90 border border-slate-800 hover:border-blue-500/40 p-3 sm:p-4 rounded-xl flex items-center gap-3 transition-colors">
-              <div className="h-9 w-9 sm:h-10 sm:w-10 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center shrink-0">
-                <ShieldCheck size={20} className="text-blue-400" />
-              </div>
-              <div className="min-w-0">
-                <div className="text-[11px] sm:text-xs font-bold text-white truncate">
-                  IndiaMART Verified
-                </div>
-                <div className="text-[10px] text-slate-400 truncate">
-                  Verified Supplier
-                </div>
-              </div>
-            </div>
-
-            {/* Trust Card 2: 1200+ Customers */}
-            <div className="bg-slate-900/90 border border-slate-800 hover:border-blue-500/40 p-3 sm:p-4 rounded-xl flex items-center gap-3 transition-colors">
-              <div className="h-9 w-9 sm:h-10 sm:w-10 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center shrink-0">
-                <Users size={20} className="text-blue-400" />
-              </div>
-              <div className="min-w-0">
-                <div className="text-[11px] sm:text-xs font-bold text-white truncate">
-                  1200+ Happy Clients
-                </div>
-                <div className="text-[10px] text-slate-400 truncate">
-                  100+ Corporate Brands
-                </div>
-              </div>
-            </div>
-
-            {/* Trust Card 3: TEDx Partner */}
-            <div className="bg-slate-900/90 border border-slate-800 hover:border-blue-500/40 p-3 sm:p-4 rounded-xl flex items-center gap-3 transition-colors">
-              <div className="h-9 w-9 sm:h-10 sm:w-10 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center shrink-0">
-                <Award size={20} className="text-blue-400" />
-              </div>
-              <div className="min-w-0">
-                <div className="text-[11px] sm:text-xs font-bold text-white truncate">
-                  TEDx Gifting Partner
-                </div>
-                <div className="text-[10px] text-slate-400 truncate">
-                  Rajdhani College 2026
-                </div>
-              </div>
-            </div>
-
-            {/* Trust Card 4: GST Invoicing */}
-            <div className="bg-slate-900/90 border border-slate-800 hover:border-blue-500/40 p-3 sm:p-4 rounded-xl flex items-center gap-3 transition-colors">
-              <div className="h-9 w-9 sm:h-10 sm:w-10 rounded-lg bg-blue-500/10 border border-blue-400/20 flex items-center justify-center shrink-0">
-                <FileCheck2 size={20} className="text-blue-400" />
-              </div>
-              <div className="min-w-0">
-                <div className="text-[11px] sm:text-xs font-bold text-white truncate">
-                  100% GST Invoice
-                </div>
-                <div className="text-[10px] text-slate-400 truncate">
-                  Input Tax Credit (ITC)
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      {/* 2. MAIN FOOTER CONTENT (4 Columns Matching Navbar Sections) */}
-      <div className="max-w-7xl mx-auto px-4 py-10 sm:py-12">
+      {/* MAIN FOOTER CONTENT (4 Clean Columns Matching Navbar Sections) */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-10 sm:py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           
           {/* Column 1: Brand & Identity */}
@@ -108,18 +29,6 @@ export default function Footer() {
             <p className="text-slate-400 text-[11px] leading-relaxed">
               Print Happiness Hub delivers premium quality customized printing solutions built on trust, precision, and complete customer satisfaction.
             </p>
-
-            <div className="pt-1">
-              <a
-                href="https://wa.me/919541119612"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 bg-[#1a3dd6] hover:bg-blue-600 text-white font-bold text-xs px-4 py-2 rounded-lg transition-all active:scale-95 shadow-sm shadow-blue-900/50"
-              >
-                <span>Direct WhatsApp Order</span>
-                <ExternalLink size={13} />
-              </a>
-            </div>
           </div>
 
           {/* Column 2: Products & Categories (Exact match to Navbar) */}
@@ -214,10 +123,10 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 4: Official Contact & Tax Registration */}
+          {/* Column 4: Official Contact & Works Facility */}
           <div className="space-y-3">
             <div className="text-xs font-bold text-white uppercase tracking-wider border-b border-slate-800 pb-2">
-              Official Contact & Tax Info
+              Official Contact & Support
             </div>
 
             <div className="space-y-2.5 text-slate-300 text-[11px]">
@@ -258,18 +167,9 @@ export default function Footer() {
                 </div>
               </div>
 
-              {/* GSTIN Box (Clean Navy/Blue styling - ZERO green) */}
-              <div className="mt-2 bg-slate-900 border border-slate-800 p-2.5 rounded-lg space-y-1">
-                <div className="text-[10px] text-slate-400 flex items-center justify-between">
-                  <span>GST Registered:</span>
-                  <span className="text-[9px] bg-blue-950 text-blue-300 border border-blue-800 px-1.5 py-0.5 rounded font-bold">
-                    Active
-                  </span>
-                </div>
-                <div className="font-mono font-bold text-white text-xs tracking-wider">
-                  06AWQPT7580E1ZW
-                </div>
-                <div className="text-[9.5px] text-slate-400">
+              <div className="flex items-center gap-2 pt-1 text-slate-400">
+                <User size={13} className="text-blue-400 shrink-0" />
+                <div>
                   Owner: <strong className="text-slate-200">Tony Maral</strong>
                 </div>
               </div>
@@ -278,14 +178,13 @@ export default function Footer() {
 
         </div>
 
-        {/* 3. BOTTOM COPYRIGHT SUB-BAR */}
+        {/* BOTTOM COPYRIGHT SUB-BAR */}
         <div className="mt-10 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-[11px]">
           <div>
             © 2026 Print Happiness Hub. All rights reserved. • Owner: Tony Maral
           </div>
-          <div className="flex items-center gap-1.5 text-slate-400">
-            <span>Official Gifting Partner for</span>
-            <strong className="text-slate-200 font-semibold">TEDx Rajdhani College 2026</strong>
+          <div className="text-slate-400">
+            Serving 100+ Brands across 50+ Cities in India
           </div>
         </div>
 

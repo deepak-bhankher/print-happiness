@@ -9,7 +9,7 @@ const REAL_SLIDES = [
     badge: "Best Seller • 100+ Brands Trust",
     price: "Slab Rates from ₹55 / piece",
     image: "/banners/slide_white_mugs.jpg",
-    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub,%20mujhe%20White%20Coffee%20Mugs%20ka%20rate%20chahiye",
+    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub!%0AI%20would%20like%20to%20inquire%20about%20White%20Coffee%20Mugs.",
     buttonText: "Order Mugs",
   },
   {
@@ -19,7 +19,7 @@ const REAL_SLIDES = [
     badge: "Trending Corporate Gift",
     price: "Bulk Discounts on 50+ Pieces",
     image: "/banners/slide_inner_mugs.jpg",
-    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub,%20mujhe%20Color%20Mugs%20ka%20rate%20chahiye",
+    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub!%0AI%20would%20like%20to%20inquire%20about%20Color%20Mugs.",
     buttonText: "View Colors",
   },
   {
@@ -29,7 +29,7 @@ const REAL_SLIDES = [
     badge: "Screen & Digital Apparel",
     price: "High-density long lasting print",
     image: "/banners/slide_tshirts.jpg",
-    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub,%20mujhe%20T-Shirts%20ka%20rate%20chahiye",
+    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub!%0AI%20would%20like%20to%20inquire%20about%20Corporate%20T-Shirts.",
     buttonText: "Explore T-Shirts",
   },
   {
@@ -39,7 +39,7 @@ const REAL_SLIDES = [
     badge: "New Season Corporate Gifting",
     price: "High Definition Multicolor Print",
     image: "/banners/slide_calendars.jpg",
-    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub,%20mujhe%20Calendars%20ka%20rate%20chahiye",
+    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub!%0AI%20would%20like%20to%20inquire%20about%20Custom%20Calendars.",
     buttonText: "Order Calendars",
   },
   {
@@ -49,7 +49,7 @@ const REAL_SLIDES = [
     badge: "Retail & Event Packaging",
     price: "Heavy Duty Durable Quality",
     image: "/banners/slide_carry_bags.jpg",
-    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub,%20mujhe%20Carry%20Bags%20ka%20rate%20chahiye",
+    actionLink: "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub!%0AI%20would%20like%20to%20inquire%20about%20Custom%20Carry%20Bags.",
     buttonText: "View Carry Bags",
   },
 ];

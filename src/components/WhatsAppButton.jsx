@@ -3,8 +3,9 @@ import React, { useState } from "react";
 export default function WhatsAppButton() {
   const [isHovered, setIsHovered] = useState(false);
 
+  // Clean 2-line English message
   const whatsappUrl =
-    "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub,%20mujhe%20custom%20printing%20orders%20ke%20bare%20me%20baat%20karni%20hai";
+    "https://wa.me/919541119612?text=Hello%20Print%20Happiness%20Hub!%0AI%20would%20like%20to%20inquire%20about%20custom%20printing%20orders.";
 
   return (
     <div className="fixed bottom-5 right-5 z-40 flex items-center gap-2.5">
