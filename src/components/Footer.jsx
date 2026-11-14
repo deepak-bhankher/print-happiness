@@ -65,7 +65,7 @@ export default function Footer() {
               <li>
                 <a href="#calendars" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors">
                   <ChevronRight size={12} className="text-blue-400 shrink-0" />
-                  <span>2026-2027 Custom Calendars</span>
+                  <span> Custom Calendars</span>
                 </a>
               </li>
               <li>
@@ -100,18 +100,6 @@ export default function Footer() {
                 <a href="#bulk-inquiry" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors">
                   <ChevronRight size={12} className="text-blue-400 shrink-0" />
                   <span>Bulk Quotes (50+ Pieces Slabs)</span>
-                </a>
-              </li>
-              <li>
-                <a href="#pricing" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors">
-                  <ChevronRight size={12} className="text-blue-400 shrink-0" />
-                  <span>Slab Pricing & Discounts</span>
-                </a>
-              </li>
-              <li>
-                <a href="#delivery" className="flex items-center gap-1.5 hover:text-blue-400 transition-colors">
-                  <ChevronRight size={12} className="text-blue-400 shrink-0" />
-                  <span>Pan India Delivery (50+ Cities)</span>
                 </a>
               </li>
               <li>
